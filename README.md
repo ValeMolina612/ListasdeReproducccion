@@ -23,6 +23,8 @@ Una lista doblemente enlazada es una estructura de datos en la que cada nodo con
 Una de sus ventajas es que se puede avanzar y retroceder entre las canciones sin tener que comenzar desde el principio. Como desventaja, es necesario actualizar correctamente los dos enlaces al insertar elementos para evitar errores en la lista.
 
 Un ejemplo de uso real es un reproductor de música, donde podemos pasar a la siguiente canción o regresar a la anterior.
+<img width="1905" height="1010" alt="reto1-compilacion png" src="https://github.com/user-attachments/assets/6193ecdc-c900-4edb-8950-b45a5ff9da31" />
+<img width="1910" height="1015" alt="reto1-ejecucion png" src="https://github.com/user-attachments/assets/918e0780-9d78-4eca-b9f8-705137673695" />
 
 ## Reto 2: Reproductor con anterior y siguiente
 
@@ -39,6 +41,9 @@ Se creó un nuevo nodo para guardar la canción. Si la lista estaba vacía, el n
 
 Primero se recorrió la lista para encontrar la canción indicada. Si se encontró, se creó el nuevo nodo y se actualizaron las referencias `anterior` y `siguiente` para colocarlo después de la canción existente. Si la canción indicada era la última, también se actualizó la cola.
 
+<img width="1916" height="1007" alt="reto2-compilacion png" src="https://github.com/user-attachments/assets/48744985-7755-430a-a5ca-ccbc72979e3c" />
+<img width="1917" height="1023" alt="reto2-ejecucion png (2)" src="https://github.com/user-attachments/assets/0968ffe0-1f67-4ac6-8b3d-6db65bfb3de8" />
+
 **3. Recorrido inverso**
 
 Para mostrar las canciones en orden inverso, se comenzó desde la cola y se avanzó utilizando la referencia `anterior` hasta llegar a `null`.
@@ -54,10 +59,8 @@ Para mostrar las canciones en orden inverso, se comenzó desde la cola y se avan
 - Se comprobó el funcionamiento con
 
 
-<img width="1905" height="1010" alt="reto1-compilacion png" src="https://github.com/user-attachments/assets/6193ecdc-c900-4edb-8950-b45a5ff9da31" />
-<img width="1910" height="1015" alt="reto1-ejecucion png" src="https://github.com/user-attachments/assets/918e0780-9d78-4eca-b9f8-705137673695" />
-<img width="1916" height="1007" alt="reto2-compilacion png" src="https://github.com/user-attachments/assets/48744985-7755-430a-a5ca-ccbc72979e3c" />
-<img width="1917" height="1023" alt="reto2-ejecucion png (2)" src="https://github.com/user-attachments/assets/0968ffe0-1f67-4ac6-8b3d-6db65bfb3de8" />
+
+
 <img width="1916" height="1010" alt="reto3-compilacion png" src="https://github.com/user-attachments/assets/c2661bfd-3cc4-409b-a334-e48452220a58" />
 <img width="1917" height="1020" alt="reto3 - ejecucion png" src="https://github.com/user-attachments/assets/27e5e4c2-6f63-4596-8f8c-6205bcf92cf7" />
 
