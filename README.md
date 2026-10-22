@@ -4,16 +4,15 @@ retos-listas- Molina Rosas- Villanueva lazo
 # Reto 2: Lista doble — Reproductor de canciones
 
 ## Integrantes
-- Nombre completo del integrante 1
-- Nombre completo del integrante 2
+- Molina Rosas Maria Valeria
+- Villanueva Lazo Lluvia Estefania 
 
 ## Datos de la actividad
 - **Asignatura:** Estructuras de datos
-- **Actividad:** Retos con listas simples, dobles y circulares
+- **Docente** Rodriguez Barron Gabriel
 - **Versión:** B — Lista de reproducción de canciones
-- **Reto:** 2 — Reproductor con anterior y siguiente
-- **Lenguaje:** Java
-
+- **Fecha:** B —22/10/2026
+  
 ## Objetivo
 Implementar una lista doblemente enlazada para organizar una lista de canciones, permitiendo agregarlas al final, insertar una canción después de otra y recorrer la playlist en sentido inverso.
 
@@ -53,3 +52,13 @@ Para mostrar las canciones en orden inverso, se comenzó desde la cola y se avan
 - Se insertó una canción después de la última para comprobar la actualización de la cola.
 - Se intentó insertar una canción después de una que no existe.
 - Se comprobó el funcionamiento con
+
+
+<img width="1905" height="1010" alt="reto1-compilacion png" src="https://github.com/user-attachments/assets/6193ecdc-c900-4edb-8950-b45a5ff9da31" />
+<img width="1910" height="1015" alt="reto1-ejecucion png" src="https://github.com/user-attachments/assets/918e0780-9d78-4eca-b9f8-705137673695" />
+<img width="1916" height="1007" alt="reto2-compilacion png" src="https://github.com/user-attachments/assets/48744985-7755-430a-a5ca-ccbc72979e3c" />
+<img width="1917" height="1023" alt="reto2-ejecucion png (2)" src="https://github.com/user-attachments/assets/0968ffe0-1f67-4ac6-8b3d-6db65bfb3de8" />
+<img width="1916" height="1010" alt="reto3-compilacion png" src="https://github.com/user-attachments/assets/c2661bfd-3cc4-409b-a334-e48452220a58" />
+<img width="1917" height="1020" alt="reto3 - ejecucion png" src="https://github.com/user-attachments/assets/27e5e4c2-6f63-4596-8f8c-6205bcf92cf7" />
+
+
