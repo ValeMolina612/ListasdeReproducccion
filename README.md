@@ -50,16 +50,27 @@ Para mostrar las canciones en orden inverso, se comenzó desde la cola y se avan
 <img width="1917" height="1020" alt="reto3 - ejecucion png" src="https://github.com/user-attachments/assets/27e5e4c2-6f63-4596-8f8c-6205bcf92cf7" />
 
 
-### Pruebas realizadas
+### Preguntas 
+. ¿Qué punteros tuvieron que actualizar en la eliminación de una lista doble y por qué son más que en la simple?
+Respuesta: Tuvimos que actualizar tanto el puntero siguiente como el puntero anterior de los nodos que estaban al lado del que borramos. Son más que en la simple porque en una lista doble los nodos van en dos direcciones, así que hay que arreglar el puente de ida y de vuelta para no romper la cadena.
 
-- Se agregaron canciones al final de la playlist.
-- Se mostró la lista en orden normal.
-- Se mostró la lista en orden inverso.
-- Se insertó una canción después de otra existente.
-- Se insertó una canción después de la última para comprobar la actualización de la cola.
-- Se intentó insertar una canción después de una que no existe.
-- Se comprobó el funcionamiento con
+2. ¿Qué error cometieron (o evitaron) por no considerar el caso de lista vacía o de un solo nodo?
+Respuesta: El error de que el programa truene o se caiga. Si olvidas revisar estos casos, el código intenta leer un puntero que no existe (null) —como buscar el "siguiente" de un nodo que está solo— y la aplicación falla.
 
+3. ¿Qué pasaría si en la lista circular se recorre con while (actual != null)?
+Respuesta: Se generaría un bucle infinito. Como las listas circulares nunca terminan en null (el último nodo siempre vuelve a apuntar al primero), la condición de que sea diferente de null siempre se cumple y el programa se quedaría atascado congelado.
+
+4. ¿En qué situación elegirían cada tipo de lista?
+Respuesta:
+
+Lista simple: Cuando solo necesitas avanzar en una dirección y quieres ahorrar memoria (ej. una lista de pendientes).
+
+Lista doble: Cuando necesitas moverte con facilidad hacia adelante y hacia atrás (ej. los botones de "Atrás" y "Adelante" del navegador).
+
+Lista circular: Cuando el proceso debe repetirse en un círculo sin fin (ej. los turnos de los jugadores en un juego o una canción en bucle).
+
+5. ¿Qué fue lo más difícil y cómo lo resolvieron como bina?
+Respuesta: Lo más difícil fue no perder el hilo mental de los punteros al momento de reconectarlos y terminar borrando información por error. Lo resolvimos dibujando esquemas en papel paso a paso antes de escribir el código y revisando la lógica juntos línea por línea.
 
 
 
